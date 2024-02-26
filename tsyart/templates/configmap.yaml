@@ -6,6 +6,5 @@ metadata:
     app: test
 data:
 {{- range $key, $value := .Values.config }}
-  {{ $key }}: |-
-    {{ $value | nindent 4 }}
+  {{ $key }}: {{ $value }}
 {{- end }}
