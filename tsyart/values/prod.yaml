@@ -2,3 +2,5 @@ config:
   ENV_VAR1: value1
   ENV_VAR2: value2
   ENV_VAR3: value3
+  password: <path:kv-v2/data/argocd#password>
+  TOKEN: <path:kv-v2/data/argocd#TOKEN>

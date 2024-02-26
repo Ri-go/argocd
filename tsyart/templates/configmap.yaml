@@ -9,4 +9,3 @@ data:
   {{ $key }}: |-
     {{ $value | nindent 4 }}
 {{- end }}
-  password: <path:kv-v2/data/argocd#password>
